@@ -1,3 +1,35 @@
+/*
+Input: n = 5
+Output: 5
+Explanation:
+Here are the non-negative integers <= 5 with their corresponding binary representations:
+0 : 0
+1 : 1
+2 : 10
+3 : 11
+4 : 100
+5 : 101
+Among them, only integer 3 disobeys the rule (two consecutive ones) and the other 5 satisfy the rule. 
+
+Ex :-
+Input: n = 1
+Output: 2
+
+Ex :-
+Input: n = 2
+Output: 3
+
+*/
+
+
+public class NonNegativeIntegersWithoutConsecutiveOnes {
+    public static void main(String args[]) {
+        Solution sol = new Solution();
+        int res = sol.findIntegers(5);
+        System.out.println(res);
+    }
+}
+
 class Solution {
     public int findIntegers(int n) {
         int[] f = new int[31];
@@ -24,3 +56,6 @@ class Solution {
         return ans + 1;
     }
 }
+
+
+//OUTPUT ---> 5
