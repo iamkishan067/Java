@@ -17,7 +17,7 @@ public class BubbleSort{
 	//bubble sort 
 	/*
 	 * Time Complexity = O(n^2)
-	 * Stable = Yes
+	 * Stable = Yes  --> because swapping always takes place between adjacent element 
 	 * Inplace = Yes
 	 */
 	
@@ -39,7 +39,7 @@ public class BubbleSort{
 	//modified bubble sort 
 	/*
 	 * Time Complexity = O(n)
-	 * Stable = Yes
+	 * Stable = Yes  --> because swapping always takes place between adjacent element 
 	 * Inplace = Yes
 	 */
 	
