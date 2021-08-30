@@ -8,7 +8,7 @@ import java.util.*;
 
 public class Test{
     public static void main(String[] args){
-        int[] arr = {2, 10, 3, 2, 3, 4, 5, 1, 2, 8};
+        int[] arr = {2, 1, 3, 2, 3, 4, 5, 1, 2, 8};
         findMinJump(arr);
     }
     
@@ -45,6 +45,13 @@ public class Test{
         printPath(arr, arr[index]);
         System.out.print(arr[index] + " ");
     }
-    
-    
-}
+}    
+
+
+/*
+Output : 
+
+Minimum jumps to reach the end = 3
+Path to reach the destination : 0 2 5 
+
+*/
