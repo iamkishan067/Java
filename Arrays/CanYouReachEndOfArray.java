@@ -13,7 +13,7 @@ import java.util.*;
 */
 
 
-public class Test{
+public class CanYouReachEndOfArray{
     public static void main(String[] args){
         int[] arr = {2, 3, 0, 1, 3};
         
