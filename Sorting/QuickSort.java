@@ -34,7 +34,7 @@ public class QuickSort{
 		while(i < j) {
 			
 			while(arr[i] <= pivot && i < right) i++;
-			while(arr[j] > pivot && j > low) j--;
+			while(arr[j] > pivot && j > left) j--;
 			
 			if(i < j) swap(i, j);
 		}
