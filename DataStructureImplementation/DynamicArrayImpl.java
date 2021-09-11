@@ -18,7 +18,7 @@ public class DynamicArrayImpl {
       int c = 0;
       int[] arr = new int[0];
       Scanner in = new Scanner(System.in);
-      ArrayList<Integer> arr1 = new ArrayList<>();
+        
       while(true){
           System.out.println("Enter a number : ");
           int x = in.nextInt();
