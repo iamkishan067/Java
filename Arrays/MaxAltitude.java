@@ -1,5 +1,8 @@
 //Leetcode --> 1732
 
+//T.C. --> O(n)
+//S.C --> O(1)
+
 public class MyClass {
     public static void main(String args[]) {
       int[] gain = {-5, 1, 5, 0, -7};
