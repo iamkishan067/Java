@@ -1,5 +1,6 @@
 import java.util.*;
 import java.io.*;
+import java.time.LocalDate;
 
 public class MyClass {
     public static void main(String args[]) {
@@ -10,11 +11,15 @@ public class MyClass {
        int dd = Integer.parseInt(in.next());
        int yyyy = Integer.parseInt(in.next());
        
-       String day = findDay(mm, dd, yyyy);
+       String day = findDay1(mm, dd, yyyy);
        
        
        System.out.println(day);
     }
+    
+    public static String findDay1(int mm, int dd, int yyyy){
+      return LocalDate.of(yyyy, mm, dd).getDayOfWeek().name();
+   }
     
     public static String findDay(int mm, int dd, int yyyy){
         String d = String.format("%02d/%02d/%02d", mm, dd, yyyy);
@@ -35,11 +40,6 @@ public class MyClass {
         
         return day;
     }
-  
-   public static String findDay1(int mm, int dd, int yyyy){
-      return LocaleDate.of(mm, dd, yyyy).getDayOfWeek().name();
-   }
-  
 }
 
 /*
