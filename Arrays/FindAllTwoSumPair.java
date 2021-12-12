@@ -70,3 +70,24 @@ public class MyClass {
 
     
 }
+
+
+
+/*
+
+ Arrays.sort(ans, new Comparator2D());
+        
+        return ans;
+    }
+    
+}
+
+class Comparator2D implements Comparator<int[]>{
+    public int compare (int[] a, int[] b){
+        return a[0] - b[0]; //a[1] - b[1];
+    }
+}
+
+
+
+*/
