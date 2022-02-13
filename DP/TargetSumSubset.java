@@ -11,7 +11,7 @@ public class Main {
         
         int[] coins = new int[n];
         
-        for(int i = 0; i < n; i++){a
+        for(int i = 0; i < n; i++){
             coins[i] = scan.nextInt();
         }
         
